@@ -49,8 +49,17 @@ body {
 h1 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
     color: #2d3748;
+    text-align: center;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    margin: 0;
 }
 
 .controls, .mode {
